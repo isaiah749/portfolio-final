@@ -21,17 +21,17 @@ const ContactMe = () => {
 
   return (
     <>
-      <div className="h-screen flex flex-col relative text-center md:text-left max-w-7xl px-10 justify-center space-y-8 mx-auto items-center ">
-        <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <div className="h-screen flex flex-col relative text-center md:text-left max-w-7xl px-10 justify-center space-y-4 md:space-y-8 mx-auto items-center ">
+        <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
           Contact
         </h3>
 
-        <div className="flex flex-col space-y-10">
-          <h4 className="text-3xl md:text-4xl font-semibold text-center">
+        <div className="flex flex-col space-y-2 md:space-y-10">
+          <h4 className="text-2xl mt-5 md:text-4xl font-semibold text-center">
             Interested in chatting?{" "}
             <span className="decoration-sky-500/50 underline">Lets Talk</span>
           </h4>
-          <div className="space-y-10">
+          <div className="space-y-2 md:space-y-10">
             <div className="flex items-center justify-center space-x-5">
               <PhoneIcon className="text-sky-500 h-7 w-7 animate-pulse" />
               <p className="text-lg md:text-xl">+1(812)650-2994</p>
