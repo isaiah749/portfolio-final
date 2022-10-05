@@ -1,0 +1,35 @@
+[
+    {
+        "title": "KITOWARES",
+        "jobTitle": "Lead Developer",
+        "image": "https://cdn.shopify.com/s/files/1/0274/1351/2301/files/SkullGraphicSpinningsmall.gif?v=1627671973",
+        "languageIcons": {
+            "icon1": "HTML",
+            "icon2": "CSS",
+            "icon3": "Javascript",
+            "icon4": "React",
+            "icon5": "Firebase",
+            "icon6": "Shopify",
+            "icon7": "Stripe"
+        },
+        "startDate": "10.02.20",
+        "endDate": "null",
+        "summary": {
+            "point1": "Build and maintain websites",
+            "point2": "Build and maintain databases",
+            "point3": "Install support software"
+        }
+    },
+    {
+        "title": "Avers Pizza",
+        "jobTitle": "Delivery Driver",
+        "image": "https://averspizza.com/wp-content/themes/avers/images/common/logoMark2.png",
+        "startDate": "03.18.2019",
+        "endDate": "03.15.2020",
+        "summary": {
+            "point1": "Handled customer orders and inquries",
+            "point2": "Trained new employees"
+        } 
+
+    }
+]
