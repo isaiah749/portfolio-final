@@ -17,7 +17,7 @@ const Hero = () => {
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[10px] md:tracking-[15px] whitespace-nowrap md:text-lg">
           Fullstack Developer
         </h2>
-        <h1 className="text-2xl lg:text-6xl font-semibold px-10 md:text-3xl">
+        <h1 className="text-xl lg:text-6xl font-semibold px-10 md:text-3xl">
           <span className="mr-3">
             <Typed
               strings={[
