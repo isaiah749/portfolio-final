@@ -33,7 +33,7 @@ const Projects = () => {
                             viewport={{
                                 once: true
                             }}
-                            src={project.image} alt='' className='h-[25%] md:mt-5 p-5 md:p-0 lg:mt-0 xl:w-[50%]' />
+                            src={project.image} alt='' className='h-[25%] md:mt-5 p-5 md:p-0 lg:mt-0 xl:w-[50%] xl:h-full' />
                             <div className='space-y-2 -mb-10 md:space-y-5 px-0 md:px-10 max-w-6xl '>
                                 <h4 className='text-2xl font-semibold text-center md:text-3xl lg:text-4xl'>
                                     <span className='underline decoration-sky-500/50'>Project {i + 1} of {data.length}:</span> {project.title}
