@@ -27,9 +27,9 @@ const ContactMe = () => {
         </h3>
 
         <div className="flex flex-col space-y-2 md:space-y-10">
-          <h4 className="text-2xl mt-5 md:text-4xl font-semibold text-center">
+          <h4 className="text-2xl md:mt-5 md:text-4xl font-semibold text-center">
             Interested in chatting?{" "}
-            <span className="decoration-sky-500/50 underline">Lets Talk</span>
+            <span className="decoration-sky-500/50 block underline">Lets Talk</span>
           </h4>
           <div className="space-y-2 md:space-y-10">
             <div className="flex items-center justify-center space-x-5">
