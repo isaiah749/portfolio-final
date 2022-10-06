@@ -24,7 +24,7 @@ const XpCardTwo = () => {
         <div className='px-0 md:px-10'>
             <h4 className='text-2xl md:text-4xl font-light'>Delivery Driver</h4>
             <p className='text-xs md:text-base uppercase py-5 text-gray-400'>Started work 03.18.2019 - Ended 03.15.2020</p>
-            <ul className='list-disc space-y-2 md:space-y-4 ml-5 text-sm md:text-lg'>
+            <ul className='list-disc space-y-2 md:space-y-4 ml-5 text-xs md:text-lg'>
                 <li>Handled customer orders and inquiries</li>
                 <li>Trained new employees</li>
                 <li>Learned customer service techniques</li>
