@@ -32,15 +32,15 @@ const ContactMe = () => {
             <span className="decoration-sky-500/50 block underline">Lets Talk</span>
           </h4>
           <div className="space-y-2 md:space-y-10">
-            <div className="flex items-center justify-center space-x-5">
+            <div className="flex items-center justify-center space-x-2 md:space-x-5">
               <PhoneIcon className="text-sky-500 h-7 w-7 animate-pulse" />
               <p className="text-lg md:text-xl">+1(812)650-2994</p>
             </div>
-            <div className="flex items-center justify-center space-x-5">
+            <div className="flex items-center justify-center space-x-2 md:space-x-5">
               <EnvelopeIcon className="text-sky-500 h-7 w-7 animate-pulse" />
               <p className="text-lg md:text-xl">isaiah749@gmail.com </p>
             </div>
-            <div className="flex items-center justify-center space-x-5">
+            <div className="flex items-center justify-center space-x-2 md:space-x-5">
               <MapPinIcon className="text-sky-500 h-7 w-7 animate-pulse" />
               <p className="text-lg md:text-xl">Bloomington IN</p>
             </div>
