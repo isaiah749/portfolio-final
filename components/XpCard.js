@@ -42,7 +42,6 @@ const XpCard = () => {
                 <li>Create Excel functions to simplify data entry</li>
                 <li>Customer Service</li>
                 <li>Business decisons/solutions</li>
-                <li>Grew a company from annually grossing 40k/year to 2mil/year</li>
             </ul>
         </div>
     </article>
