@@ -7,7 +7,7 @@
     {
         "title": "JesusPunks",
         "image": "https://i.imgur.com/6tqDSOV.png",
-        "summary": "JesusPunks is a decentralized application that connects to the Rinkby Blockchain, which is a test network. This responsive website was built in React, CSS, Solidity. The app connects to the Blockchain and pulls the smart contract. Through the use of API(s), the website is able to run functions built on the smart contract and give the user a randomly generated JesusPunk. After a user purchases a JesusPunk, the JesusPunk will be availible on Opensea's test network. The website has Shopify Storefront functonality using Shopifys storefront API, although it is not visible because the store doesn't become active till 'x' amount of sales."
+        "summary": "JesusPunks is a decentralized application that connects to the Rinkby Blockchain, which is a test network. This responsive website was built in React, CSS, Solidity. The app connects to the Blockchain and pulls the smart contract. Through the use of API(s), the website is able to run functions built on the smart contract and give the user a randomly generated JesusPunk. After a user purchases a JesusPunk, the JesusPunk will be availible on Opensea's test network. The website has Shopify Storefront functonality using Shopifys storefront API."
     },
     {
         "title": "KitoWares",
@@ -17,7 +17,7 @@
     {
         "title": "Park@IU",
         "image": "https://i.imgur.com/zHEHkwb.png",
-        "summary": "Park@IU is an Android app that was a school project to finish my degree at Indiana University. The app was built in Java using Andorid Stuido. The app had to make API calls to a relationship database to pull the data and populate the screen. Users were able to sign in using their IU login, this would dispatch a request to IU's CAS system, verify session ID and user parameters to ensure that the user was a part of the university. After users were successfully logged in the app would redirect them to the home page and pull their data to the profile page. Users were able to favorite certain spots and lots. The app had Google Maps integration to take users to specific parking lots on campus."
+        "summary": "Park@IU is an Android app that was a school project to finish my degree at IU. The app was built in Java using Andorid Stuido. The app had to make API calls to a sql database to pull the data and populate the screen. Users were able to sign in using their IU login, this would dispatch a request to IU's CAS system, verify session ID and user parameters to ensure that the user was a part of the university. After users were successfully logged in the app would redirect them to the home page and pull their data to the profile page. "
     },
     {
         "title": "Magnificent Minds",

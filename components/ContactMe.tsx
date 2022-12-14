@@ -26,7 +26,7 @@ const ContactMe = () => {
           Contact
         </h3>
 
-        <div className="flex flex-col space-y-2  md:space-y-10">
+        <div className="flex flex-col space-y-2 pt-10 md:pt-0 md:space-y-10">
           <h4 className="text-2xl -mt-10 md:mt-5 md:text-4xl font-semibold text-center">
             Interested in chatting?{" "}
             <span className="decoration-sky-500/50 block underline">Lets Talk</span>

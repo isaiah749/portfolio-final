@@ -10,7 +10,7 @@ const Hero = () => {
       <BackgroundCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover md:h-44 md:w-44"
-        src="https://media-exp1.licdn.com/dms/image/C4D03AQG1vgL9_dglOg/profile-displayphoto-shrink_800_800/0/1648667133264?e=1670457600&v=beta&t=QNRH9uG2SVjiFqTn7jIlqhfn3fZKIRVoqNg22Y7kfpw"
+        src="https://i.imgur.com/izZGk8h.jpg"
         alt=""
       />
       <div className='z-20'>

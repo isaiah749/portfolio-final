@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import XpCard from './XpCard'
 import data from '../context/workExperience.json'
 import XpCardTwo from './XpCardTwo'
+import XpCardThree from './XpCardThree'
 
 const WorkExperience = () => {
   return (
@@ -14,6 +15,7 @@ const WorkExperience = () => {
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl '>Experience</h3>
         
         <div className="w-full flex space-x-5 overflow-x-scroll snap-x snap-mandatory scrollbar-track-gray-400/20 scrollbar-thumb-sky-500/80 xl:overflow-x-hidden ">
+            <XpCardThree />
             <XpCard  />
             <XpCardTwo />
         </div>

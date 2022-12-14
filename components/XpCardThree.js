@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import stripelogo from '../styles/images/Vector 1.png'
 
-const XpCard = () => {
+const XpCardThree = () => {
   return (
     <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 snap-mandatory h-[350px] md:h-full w-[350px] md:w-[600px] xl:w-[900px] snap-start bg-[#292929] py-10 pl-5 pr-14 hover:opacity-100 opacity-50 cursor-pointer transition-opacity duration-200 overflow-hidden xl:h-[38rem]'>
         <motion.img 
@@ -20,10 +20,10 @@ const XpCard = () => {
         viewport={{
             once: true
         }}
-        src="https://cdn.shopify.com/s/files/1/0274/1351/2301/files/SkullGraphicSpinningsmall.gif?v=1627671973" alt="" className='rounded-full h-28 w-28 md:h-32  md:w-32 xl:w-[200px] xl:h-[200px] object-cover object-center' />
+        src="https://i.imgur.com/fZQ6WcI.png" alt="" className='rounded-full h-28 w-28 md:h-32  md:w-32 xl:w-[200px] xl:h-[200px] object-cover object-center mb-3' />
 
         <div className='px-0 md:px-10'>
-            <h4 className='text-xl md:text-4xl font-light -mt-8 '>Lead Developer</h4>
+            <h4 className='text-xl md:text-4xl font-light -mt-8 '>Fullstack Devloper - Freelance</h4>
             <div className='flex space-x-2 my-2 items-center -mb-3 '>
                 <img className='md:h-10 h-5 md:w-10 w-5 rounded-full' src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="" />
                 <img className='md:h-10 h-5 md:w-10 w-5 rounded-full' src="https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png" alt="" />
@@ -34,12 +34,12 @@ const XpCard = () => {
                 <img className='md:h-10 h-5 md:w-10 w-5 rounded-full object-contain' src="https://www.svgrepo.com/show/353814/google-gsuite.svg" alt="" />
                 <img className='md:h-10 h-5 md:w-10 w-5 rounded-full object-contain' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/2048px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png" alt="" />
             </div>
-            <p className='uppercase py-5 text-gray-400 text-xs md:text-base mt-0 '>Started work: 10.02.20 - <span className=''>Ended: 11.01.22</span></p>
+            <p className='uppercase py-5 text-gray-400 text-xs md:text-base mt-0 '>Started work: 11.01.22 - <span className='italic'>Current</span></p>
             <ul className='list-disc space-y-0 md:space-y-4 ml-5 pb-5 text-xs md:text-lg -mt-3 md:mt-0'>
                 <li>Build and maintain websites/E-commerce storefronts (Stripe & Shopify)</li>
                 <li>Build and maintain databases</li>
-                <li>Install support software</li>
-                <li>Create Excel functions to simplify data entry</li>
+                <li>Data routing</li>
+                <li>Excel for organization</li>
                 <li>Customer Service</li>
                 <li>Business decisons/solutions</li>
             </ul>
@@ -48,4 +48,4 @@ const XpCard = () => {
   )
 }
 
-export default XpCard
+export default XpCardThree
