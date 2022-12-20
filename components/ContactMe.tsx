@@ -1,23 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
-import { useForm, SubmitHandler } from "react-hook-form";
-type Inputs = {
-  name: string;
-  email: string;
-  subject: string;
-  message: string;
-};
+
 
 const ContactMe = () => {
-  const {
-    register,
-    handleSubmit,
-    watch,
-    formState: { errors },
-  } = useForm<Inputs>();
-  const onSubmit: SubmitHandler<Inputs> = (formData) => {
-    window.location.href = `mailto:isaiah749@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message}`
-  };
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [subject, setSubject] = useState('')
+  const [message, setMessage] = useState('')
 
   return (
     <>
@@ -46,23 +35,19 @@ const ContactMe = () => {
             </div>
           </div>
         </div>
-        <form id="form" onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto">
-          <div className="flex flex-col items-center space-y-2 md:space-y-0 md:flex-row md:space-x-2">
-            <input type="text" {...register('name')} placeholder="Name" className="contactInput" />{" "}
-            <input type="email" {...register('email')} placeholder="Email" className="contactInput" />
-          </div>
+        <form id='contactForm' action='https://formsubmit.co/isaiah749@gmail.com' method='POST' className="flex flex-col space-y-2 w-fit mx-auto">
+            <div className='flex flex-col items-center space-y-2 md:space-y-0 md:flex-row md:space-x-2'>
+                <input type="text" value={name} name='name' onChange={(e) => setName(e.target.value)} placeholder='Name' className='contactInput' />
+                <input type="hidden" name='_next' value='https://www.isaiahmorris.dev/#hero' />
+                <input type="email" value={email} name='email' onChange={(e) => setEmail(e.target.value)} placeholder='Email' className='contactInput' />
+            </div>
+            <input type="text" value={subject} name='subject' onChange={(e) => setSubject(e.target.value)} placeholder='Subject' className='contactInput' />
 
-          <input type="text" {...register('subject')} placeholder="Subject" className="contactInput" />
-
-          <textarea
-            className="contactInput"
-            placeholder="Message"
-            {...register('message')}
-          />
-
-          <button
+            <textarea className='contactInput' name='message' value={message} onChange={(e) => setMessage(e.target.value)} placeholder='Message' />
+            <button
             type="submit"
-            className="bg-sky-500 py-[10px] px-5 md:py-5 md:px-10 rounded-md text-black font-bold text-lg "
+            form='contactForm'
+            className="bg-black border-2 border-sky-500 py-[10px] px-5 md:py-5 md:px-10 rounded-md text-white font-bold text-lg "
           >
             Submit
           </button>
