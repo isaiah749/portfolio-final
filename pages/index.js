@@ -10,30 +10,30 @@ import Skills from "../components/Skills";
 import WorkExperience from "../components/WorkExperience";
 export default function Home() {
   return (
-    <div className="text-white h-screen snap-y snap-mandatory overflow-scroll z-0 overflow-y-scroll overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-sky-500/80 ">
+    <div className="text-white h-screen overflow-scroll z-0 overflow-y-scroll overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-sky-500/80 ">
       <Header />
 
-      <section id="hero" className="snap-start">
+      <section id="hero" className="">
         <Hero />
       </section>
 
-      <section id="experience" className="snap-center">
+      <section id="experience" className="">
         <WorkExperience />
       </section>
       
-      <section id="projects" className="snap-center">
+      <section id="projects" className="">
         <Projects />
       </section>
 
-      <section id="skills" className="snap-start">
+      <section id="skills" className="">
         <Skills />
       </section>
 
-      <section id="about" className="snap-center">
+      <section id="about" className="">
         <About />
       </section>
 
-      <section id="contact" className="snap-start">
+      <section id="contact" className="">
         <ContactMe />
       </section>
 
