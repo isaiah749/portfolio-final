@@ -12,3 +12,7 @@
         @apply outline-none bg-slate-400/10 rounded-sm border-b px-3 py-2 md:px-6 md:py-4 border-[#242424] text-gray-500 placeholder:text-gray-500 transition-all focus:border-sky-500/40 focus:text-sky-500/40 w-[300px] md:w-full
     }
 }
+
+.project-scroll::-webkit-scrollbar {
+    display: none;
+}

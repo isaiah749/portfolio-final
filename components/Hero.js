@@ -22,7 +22,8 @@ const Hero = () => {
             <Typed
               strings={[
                 "Hi, I'm Isaiah Morris",
-                'Welcome To My Portfolio'
+                'Welcome To My Portfolio',
+                'Currently Under Revision'
               ]}
               typeSpeed={60}
               backSpeed={60}
@@ -44,6 +45,9 @@ const Hero = () => {
           </Link>
           <Link href='#projects'>
             <button className="heroButton">Projects</button>
+          </Link>
+          <Link href={'https://drive.google.com/file/d/11VQP-qVqeLHAzuy1H33IWO80aRWGSl15/view?usp=share_link'}>
+            <button className='heroButton'>My Resume</button>        
           </Link>
         </div>
       </div>

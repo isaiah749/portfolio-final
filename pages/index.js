@@ -38,7 +38,7 @@ export default function Home() {
       </section>
 
 
-        <footer className="sticky bottom-5 lg:bottom-10 w-full  ">
+        <footer className="sticky bottom-5 lg:bottom-10 w-[fit-content] mx-auto ">
           <div className="flex items-center justify-center">
             <Link className="cursor-pointer" href="#hero">
             <svg
