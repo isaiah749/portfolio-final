@@ -16,7 +16,7 @@ const Projects = () => {
             
 
             {/* Mobile Projects */}
-            <div className=' relative w-[1750px] flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-sky-500/80  lg:items-center -mt-10 z-20  '>
+            <div className=' relative w-screen lg:w-[1750px] flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-sky-500/80  lg:items-center -mt-10 z-20  '>
                 {
                     data.map((project, i) => (
                         <motion.div key={i} className="w-full flex-shrink-0 snap-center flex flex-col md:space-y-5 items-center justify-center p-10 md:p-44 h-screen">
