@@ -16,7 +16,7 @@ export default function Home() {
       <section id="hero" className="">
         <Hero />
       </section>
-{/* 
+
       <section id="experience" className="">
         <WorkExperience />
       </section>
@@ -31,14 +31,14 @@ export default function Home() {
 
       <section id="about" className="">
         <About />
-      </section> */}
+      </section>
 
       <section id="contact" className="">
         <ContactMe />
       </section>
 
 
-        <footer className="sticky bottom-5 lg:bottom-10 w-full  ">
+        <footer className="sticky bottom-5 lg:bottom-10 w-[fit-content] mx-auto ">
           <div className="flex items-center justify-center">
             <Link className="cursor-pointer" href="#hero">
             <svg
