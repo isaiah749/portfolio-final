@@ -23,7 +23,7 @@ const Hero = () => {
               strings={[
                 "Hi, I'm Isaiah Morris",
                 'Welcome To My Portfolio',
-                'Currently Under Revision'
+                'Fullstack Developer'
               ]}
               typeSpeed={60}
               backSpeed={60}

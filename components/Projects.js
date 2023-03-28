@@ -12,7 +12,7 @@ const Projects = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
         className='h-[fit-content] py-5 relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0 '>
-            <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Projects</h3>
+            <h3 className="absolute top-24 sm:top-0 md:top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Projects</h3>
             <div className=' relative w-screen lg:w-[1750px] flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-sky-500/80  lg:items-center -mt-10 z-20  '>
                 {
                     data.map((project, i) => (
@@ -32,7 +32,7 @@ const Projects = () => {
                             viewport={{
                                 once: true
                             }}
-                            src={project.image} alt='' className='h-[25%] md:mt-5 p-5 md:p-0 lg:mt-0 xl:w-[50%] xl:h-full' />
+                            src={project.image} alt='' className='h-[25%] sm:h-[45%] md:h-[25%] md:mt-5 p-5 md:p-0 lg:mt-0 xl:w-[50%] xl:h-full' />
                             <div className='space-y-2 -mb-10 md:space-y-5 px-0 md:px-10 max-w-6xl '>
                                 <h4 className='text-2xl font-semibold text-center md:text-3xl lg:text-4xl'>
                                     <span className='underline decoration-sky-500/50'>Project {i + 1} of {data.length}:</span> {project.title}
