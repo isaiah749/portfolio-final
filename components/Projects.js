@@ -1,10 +1,11 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import data from '../context/projects.json'
-
+import { useRouter } from 'next/router'
 const Projects = () => {
 
     const projects = [1, 2, 3, 4, 5]
+    const router = useRouter();
 
     return (
         <motion.div
@@ -35,7 +36,7 @@ const Projects = () => {
                             src={project.image} alt='' className='h-[25%] sm:h-[45%] md:h-[25%] md:mt-5 p-5 md:p-0 lg:mt-0 xl:w-[50%] xl:h-full' />
                             <div className='space-y-2 -mb-10 md:space-y-5 px-0 md:px-10 max-w-6xl '>
                                 <h4 className='text-2xl font-semibold text-center md:text-3xl lg:text-4xl'>
-                                    <span className='underline decoration-sky-500/50'>Project {i + 1} of {data.length}:</span> {project.title}
+                                    <span className='underline decoration-sky-500/50'>Project {i + 1} of {data.length}:</span> <span className='cursor-pointer hover:underline decoration-sky-500/50' onClick={() => router.push(`${project.link}`)} >{project.title}</span>
                                 </h4>
                                 <p className='text-xs md:text-lg text-center md:text-left '>
                                     {project.summary}

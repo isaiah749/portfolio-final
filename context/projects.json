@@ -2,31 +2,37 @@
     {
         "title": "KitoRaffles",
         "image": "https://i.imgur.com/7POVWEr.png",
-        "summary": "KitoRaffles is a responsive NextJS website styled with TailwindCSS. KitoRaffles has a Stripe API integrated so users are able to select a specific item and their size to checkout. There are forms that are connected to Firebase to retrieve customer data such as, names, emails and phone numbers. Animations on the website are from a library called 'Framer Motion'. Inspiration from the product page came from Adidas (viewed on desktop) and Nike (viewed on mobile)."
+        "summary": "KitoRaffles is a responsive NextJS website styled with TailwindCSS. KitoRaffles has a Stripe API integrated so users are able to select a specific item and their size to checkout. There are forms that are connected to Firebase to retrieve customer data such as, names, emails and phone numbers. Animations on the website are from a library called 'Framer Motion'. Inspiration from the product page came from Adidas (viewed on desktop) and Nike (viewed on mobile).",
+        "link": "https://kito-raffles.vercel.app/"
     },
     {
         "title": "JesusPunks",
         "image": "https://i.imgur.com/6tqDSOV.png",
-        "summary": "JesusPunks is a decentralized application that connects to the Rinkby Blockchain, which is a test network. This responsive website was built in React, CSS, Solidity. The app connects to the Blockchain and pulls the smart contract. Through the use of API(s), the website is able to run functions built on the smart contract and give the user a randomly generated JesusPunk. After a user purchases a JesusPunk, the JesusPunk will be availible on Opensea's test network. The website has Shopify Storefront functonality using Shopifys storefront API."
+        "summary": "JesusPunks is a decentralized application that connects to the Rinkby Blockchain, which is a test network. This responsive website was built in React, CSS, Solidity. The app connects to the Blockchain and pulls the smart contract. Through the use of API(s), the website is able to run functions built on the smart contract and give the user a randomly generated JesusPunk. After a user purchases a JesusPunk, the JesusPunk will be availible on Opensea's test network. The website has Shopify Storefront functonality using Shopifys storefront API.",
+        "link": "https://jesuspunks.io/"
     },
     {
         "title": "KitoWares",
         "image": "https://i.imgur.com/KbsjWSw.png",
-        "summary": "Kitowares is a Shopify store. Shopify is an E-commerce platform that makes it easy for people to sell items online to the world through a website. You are able to integrate custom HTML, CSS, and JS to the storefront to be able to make changes. You can also use Shopifys theme builder or storefront API to accomplish needs to be done. You are able to see customer data, export it, manipulate it, and more. "
+        "summary": "Kitowares is a Shopify store. Shopify is an E-commerce platform that makes it easy for people to sell items online to the world through a website. You are able to integrate custom HTML, CSS, and JS to the storefront to be able to make changes. You can also use Shopifys theme builder or storefront API to accomplish needs to be done. You are able to see customer data, export it, manipulate it, and more. ",
+        "link": "https://www.kito.online/"
     },
     {
         "title": "Magnificent Minds",
         "image": "https://i.imgur.com/YCoBVVV.png",
-        "summary": "Magnificent Minds is a website that is built in NextJS and styled with TailwindCSS. This responsive webiste has form functionality that sends an email to the owner of the organization of the inquiry from the user. This is an informative/service website to let users know about Dyslexia and allow interested users to seek help from a professional."
+        "summary": "Magnificent Minds is a website that is built in NextJS and styled with TailwindCSS. This responsive webiste has form functionality that sends an email to the owner of the organization of the inquiry from the user. This is an informative/service website to let users know about Dyslexia and allow interested users to seek help from a professional.",
+        "link": "https://www.magnificentmindstutoring.com/"
     },
     {
         "title": "Client Portfolio Website",
         "image": "https://i.imgur.com/n1gSwpF.png",
-        "summary": "This is a portfolio website template that I used for one of my clients. I used Next.js as the framework and styled the website with TailwindCSS. I used Framer Motion to achieve the animations on the website because Framer Motion makes it very easy to create smooth animations and transitions. "
+        "summary": "This is a portfolio website template that I used for one of my clients. I used Next.js as the framework and styled the website with TailwindCSS. I used Framer Motion to achieve the animations on the website because Framer Motion makes it very easy to create smooth animations and transitions. ",
+        "link": "https://elaborate-toffee-a1edcc.netlify.app/"
     },
     {
         "title": "Park@IU",
         "image": "https://i.imgur.com/zHEHkwb.png",
-        "summary": "Park@IU is an Android app that was a school project to finish my degree at IU. The app was built in Java using Andorid Stuido. The app had to make API calls to a sql database to pull the data and populate the screen. Users were able to sign in using their IU login, this would dispatch a request to IU's CAS system, verify session ID and user parameters to ensure that the user was a part of the university. After users were successfully logged in the app would redirect them to the home page and pull their data to the profile page. "
+        "summary": "Park@IU is an Android app that was a school project to finish my degree at IU. The app was built in Java using Andorid Stuido. The app had to make API calls to a sql database to pull the data and populate the screen. Users were able to sign in using their IU login, this would dispatch a request to IU's CAS system, verify session ID and user parameters to ensure that the user was a part of the university. After users were successfully logged in the app would redirect them to the home page and pull their data to the profile page. ",
+        "link": "https://zion.luddy.indiana.edu/info-capstone-2021/park-at-iu"
     }
 ]
