@@ -10,8 +10,8 @@ const ContactMe = () => {
 
   return (
     <>
-      <div className="h-screen flex flex-col relative text-center md:text-left max-w-7xl px-10 justify-center space-y-4 md:space-y-8 mx-auto items-center ">
-        <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <div className="h-[fit-content] py-10 flex flex-col relative text-center md:text-left max-w-7xl px-10 justify-center space-y-4 md:space-y-8 mx-auto items-center ">
+        <h3 className="absolute top-4 uppercase tracking-[20px] text-gray-500 text-2xl">
           Contact
         </h3>
 
