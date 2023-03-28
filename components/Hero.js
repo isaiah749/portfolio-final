@@ -33,7 +33,7 @@ const Hero = () => {
           </span>
         </h1>
         <div className="pt-5">
-          {/* <Link href='#about'>
+          <Link href='#about'>
             <button className="heroButton">About</button>
           </Link>
 
@@ -45,9 +45,9 @@ const Hero = () => {
           </Link>
           <Link href='#projects'>
             <button className="heroButton">Projects</button>
-          </Link> */}
+          </Link>
           <Link href={'https://drive.google.com/file/d/11VQP-qVqeLHAzuy1H33IWO80aRWGSl15/view?usp=share_link'}>
-            <button className='heroButton text-2xl'>My Resume</button>        
+            <button className='heroButton'>My Resume</button>        
           </Link>
         </div>
       </div>
