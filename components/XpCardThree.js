@@ -4,7 +4,7 @@ import stripelogo from '../styles/images/Vector 1.png'
 
 const XpCardThree = () => {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 snap-mandatory h-[350px] md:h-full w-[350px] md:w-[600px] xl:w-[900px] snap-start bg-[#292929] py-10 pl-5 pr-14 hover:opacity-100 opacity-50 cursor-pointer transition-opacity duration-200 overflow-hidden xl:h-[38rem]'>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 snap-mandatory h-[350px] md:h-full w-screen lg:w-[900px] snap-start bg-[#292929] py-10 pl-5 pr-14 hover:opacity-100 opacity-50 cursor-pointer transition-opacity duration-200 overflow-hidden xl:h-[38rem]'>
         <motion.img 
         initial={{
             y: -100,
