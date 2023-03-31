@@ -4,7 +4,7 @@ import stripelogo from '../styles/images/Vector 1.png'
 
 const XpCard = () => {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 snap-mandatory h-[350px] md:h-full w-screen lg:w-[900px] snap-start bg-[#292929] py-10 pl-5 pr-14 hover:opacity-100 opacity-50 cursor-pointer transition-opacity duration-200 overflow-hidden xl:h-[38rem]'>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 snap-mandatory h-[350px] md:h-full w-screen lg:w-[600px] snap-start bg-[#292929] py-10 pl-5 pr-14 hover:opacity-100 opacity-50 cursor-pointer transition-opacity duration-200 overflow-hidden lg:h-[40rem] '>
         <motion.img 
         initial={{
             y: -100,
@@ -35,7 +35,7 @@ const XpCard = () => {
                 <img className='md:h-10 h-5 md:w-10 w-5 rounded-full object-contain' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/2048px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png" alt="" />
             </div>
             <p className='uppercase py-5 text-gray-400 text-xs md:text-base mt-0 '>Started work: 10.02.20 - <span className=''>Ended: 11.01.22</span></p>
-            <ul className='list-disc space-y-0 md:space-y-4 ml-5 pb-5 text-xs md:text-lg -mt-3 md:mt-0'>
+            <ul className='list-disc space-y-0 md:space-y-4 ml-5  pb-5 text-xs md:text-lg -mt-3 md:mt-0'>
                 <li>Build and maintain websites/E-commerce storefronts (Stripe & Shopify)</li>
                 <li>Build and maintain databases</li>
                 <li>Install support software</li>

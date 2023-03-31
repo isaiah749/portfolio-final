@@ -4,7 +4,7 @@ import stripelogo from '../styles/images/Vector 1.png'
 
 const XpCardThree = () => {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 snap-mandatory h-[350px] md:h-full w-screen lg:w-[900px] snap-start bg-[#292929] py-10 pl-5 pr-14 hover:opacity-100 opacity-50 cursor-pointer transition-opacity duration-200 overflow-hidden xl:h-[38rem]'>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 snap-mandatory h-[350px] md:h-full w-screen lg:w-[600px] snap-start bg-[#292929] py-10 pl-5 pr-14 hover:opacity-100 opacity-50 cursor-pointer transition-opacity duration-200 overflow-hidden lg:h-[40rem] '>
         <motion.img 
         initial={{
             y: -100,
@@ -23,7 +23,7 @@ const XpCardThree = () => {
         src="https://i.imgur.com/fZQ6WcI.png" alt="" className='rounded-full h-28 w-28 md:h-32  md:w-32 xl:w-[200px] xl:h-[200px] object-cover object-center mb-3' />
 
         <div className='px-0 md:px-10'>
-            <h4 className='text-xl md:text-4xl font-light -mt-8 '>Fullstack Devloper - Freelance</h4>
+            <h4 className='text-xl md:text-4xl font-light -mt-8 '>Freelance Developer</h4>
             <div className='flex space-x-2 my-2 items-center -mb-3 '>
                 <img className='md:h-10 h-5 md:w-10 w-5 rounded-full' src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="" />
                 <img className='md:h-10 h-5 md:w-10 w-5 rounded-full' src="https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png" alt="" />
