@@ -32,7 +32,7 @@ function JunoPlus() {
             </ul>
         </div>
         <div className="flex items-center justify-center mt-5">
-            <button className="bg-green-700/90 px-6 py-3 rounded-full">
+            <button className="bg-green-700/90 px-6 py-3 rounded-full shadow-lg">
                 <h2 className="text-white font-bold text-xl">Join Juno+</h2>
                 <p className="text-gray-200 text-sm">Just $99 Per Article</p>
             </button>
