@@ -23,7 +23,7 @@ const XpCard = () => {
         src="https://cdn.shopify.com/s/files/1/0274/1351/2301/files/SkullGraphicSpinningsmall.gif?v=1627671973" alt="" className='rounded-full h-28 w-28 md:h-32  md:w-32 xl:w-[200px] xl:h-[200px] object-cover object-center' />
 
         <div className='px-0 md:px-10'>
-            <h4 className='text-xl md:text-4xl font-light -mt-8 '>Ecommerce Developer</h4>
+            <h4 className='text-xl md:text-4xl font-light -mt-8 '>Ecommerce Develope</h4>
             <div className='flex space-x-2 my-2 items-center -mb-3 '>
                 <img className='md:h-10 h-5 md:w-10 w-5 rounded-full' src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="" />
                 <img className='md:h-10 h-5 md:w-10 w-5 rounded-full' src="https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png" alt="" />
