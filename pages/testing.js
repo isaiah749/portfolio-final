@@ -32,6 +32,13 @@ function Testing() {
             <input className='lg:w-[500px] lg:h-3 bg-gray-200 rounded-lg  cursor-pointer lg:range-lg  w-[350px] h-2 mb-3  accent-green-500 ' type='range' min='99' max='900' step='1' value={data} onChange={(e) => setData(e.target.value)}  />
             <h1 className='font-bold text-green-500 text-3xl'>
                 {`$${data}/Month`}
+                <span className={data < 900 ? 'block' : 'hidden'}>
+                  {data <= 490 ? (<div>$99/Month</div>) : (<div>$490/Month</div>)}
+                </span>
+                <span className={data >= 900 ? 'block' : 'hidden'}>
+                  <div>$900/Month</div>
+                </span>
+                
             </h1>
         </div>
     </div>
